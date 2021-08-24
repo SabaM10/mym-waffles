@@ -1,15 +1,16 @@
 import React from 'react';
 
-const waffle = ({waffle, cart, setCart, waffles}) => {
+
+const Waffle = ({waffle, cart, setCart, waffles}) => {
     const {nombre, precio, id} = waffle
-    return (
+    return(
         <div>
-            <ul>
-                <li>{nombre}</li>
-                <li>{precio}</li>
-            </ul>
+        <ul>
+            <li>{nombre}</li>
+            <li>{precio}</li>
+        </ul>
         </div>
     );
 };
 
-export default waffle;
+export default Waffle;

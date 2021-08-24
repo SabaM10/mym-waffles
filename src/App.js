@@ -1,8 +1,11 @@
 import React, {Fragment, useState} from 'react';
-
+//importo listado de waffles
+import Waffle from './components/Waffles';
+//importo
+import Cart from './components/Cart'
 function App() {
 //Estado de waffles con listado de waffles
-    const [waffles, setwaffles] = useState([
+    const [Waffles, setWaffles] = useState([
       {id: 1, nombre: 'Waffles basicos', precio: 250},
       {id: 2, nombre: 'Waffles nutebasicos', precio: 290},
       {id: 3, nombre: 'Waffles frutales', precio: 310},
@@ -20,15 +23,18 @@ function App() {
   return (
     <Fragment>
       <h3>Waffles</h3>
-      {waffles.map((waffle)=>(
+      {Waffles.map((Waffle)=> (
         <waffle
-        key = {waffle.id}
-        waffle ={waffle}
+        key={Waffle.id}
+        Waffle={Waffle}
         cart={cart}
         setCart={setCart}
-        waffles={waffles}
+        Waffles={Waffles}
         />
       ))}
+      <Cart
+      Cart = {Cart}
+      />
     </Fragment>
   );
 }
