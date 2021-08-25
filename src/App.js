@@ -2,7 +2,7 @@ import React, {Fragment, useState} from 'react';
 //importo listado de waffles
 import Waffle from './components/Waffle'
 //importo
-import cart from './components/Cart'
+import Cart from './components/Cart';
 function App() {
 //Estado de waffles con listado de waffles
     const [waffles, setWaffles] = useState([
@@ -32,6 +32,10 @@ function App() {
         waffles={waffles}
       />
       ))} 
+      <Cart
+      cart={cart}
+      setCart={setCart}      
+      />
     </Fragment>
   );
 }
