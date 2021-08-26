@@ -1,9 +1,22 @@
 .cart {
     position: absolute;
     top: 0;
-    right: 10vw;
+    right: 2vw;
+    
 }
 
 .cart h3 {
     color: red;
+}
+.shopiing-cart{
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url('../images/cart.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0;  
+    width: 20px;
+    height: 20px;
+    color: #f4b561;
 }

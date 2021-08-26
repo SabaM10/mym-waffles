@@ -3,6 +3,7 @@ import React, {Fragment, useState} from 'react';
 import Waffle from './components/Waffle'
 //importo
 import Cart from './components/Cart';
+import "./styles/styles.css";
 function App() {
 //Estado de waffles con listado de waffles
     const [waffles, setWaffles] = useState([
@@ -22,7 +23,20 @@ function App() {
 
   return (
     <Fragment>
-      <h3>Waffles</h3>
+    <section className = 'container'>
+      <section className="container__header">
+        <div className="container__header__menu">
+            <button className="container__header__menu--button"></button>
+          </div>
+        <div className="container__header__title">
+            <h3 className="container__header__title--text">MyM Waffles</h3>
+        </div>
+
+       <div className="container__header__cartDiv">
+            <Cart cart={cart} setCart={setCart} />
+          </div>
+      </section>
+      <section className="container__content">
       {waffles.map((waffle)=> (
         <Waffle
         key={waffle.id}
@@ -31,11 +45,12 @@ function App() {
         setCart={setCart}
         waffles={waffles}
       />
-      ))} 
-      <Cart
-      cart={cart}
-      setCart={setCart}      
-      />
+      ))}
+      </section> 
+      <section className="container__footer">
+          <p>waffles waffles</p>
+        </section>
+    </section>
     </Fragment>
   );
 }

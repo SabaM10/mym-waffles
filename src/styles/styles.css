@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+* {
+    margin: 0;
+  }
+* body {
+    background-color: #de9655;
+  }
+  
+.container__header {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9b6233;
+    color: white;
+    font-family: "Collector Comic";
+  }
+  
+.container__header__title--text {
+    cursor: default;
+    color: #f4b561;
+  }
+  
+.container__header__menu {
+    padding-left: 5px;
+  }
+.container {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+.container__header__menu--button
+{
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url('../images/lista.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  color: #f4b561;
+}
