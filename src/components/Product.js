@@ -13,10 +13,13 @@ import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { AddShoppingCart } from '@material-ui/icons';
 import accounting from 'accounting';
+import basicos from '../images/basicos.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+    marginTop:"2rem",
+    marginLeft:"0.5rem"
   },
   media: {
     height: 0,
@@ -61,8 +64,8 @@ export default function Product() {
       />
       <CardMedia
         className={classes.media}
-        image="https://es.cravingsjournal.com/wp-content/uploads/2020/01/waffles-1-500x500.jpg"
-        title="Paella dish"
+        image={basicos}
+        title="Waffles basicos"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
