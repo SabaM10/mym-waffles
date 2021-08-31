@@ -6,6 +6,7 @@ import Cart from "./components/Cart";
 import "./styles/styles.css";
 import Product from "./components/Product";
 import Navbar from "./components/navbar";
+import Products from "./components/Products";
 function App() {
   //Estado de waffles con listado de waffles
   const [waffles, setWaffles] = useState([
@@ -31,7 +32,8 @@ function App() {
           </div>
         </section>
         <section className="container__content">
-          <Product />
+          <Products />
+          {/*<Product />*/}
           {waffles.map((waffle) => (
             <Waffle
               key={waffle.id}

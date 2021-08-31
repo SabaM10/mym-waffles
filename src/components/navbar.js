@@ -44,6 +44,7 @@ export default function Navbar() {
           >
             <img src={logo} className={classes.image} />
           </IconButton>
+          <div className={classes.grow} />
           <Typography variant="h6" color="textPrimary" component="p">
             Bienvenido!
           </Typography>
