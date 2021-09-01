@@ -13,7 +13,6 @@ import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { AddShoppingCart } from '@material-ui/icons';
 import accounting from 'accounting';
-import basicos from '../images/basicos.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {

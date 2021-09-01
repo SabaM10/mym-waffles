@@ -1,5 +1,5 @@
-import basicos from '/images/basicos.jpg'
-import nutebasicos from '/images/nutebasicos.jpg'
+import basicos from 'basicos.jpg'
+import nutebasicos from 'nutebasicos.jpg'
 const products = [
 {
     id:1,
