@@ -64,18 +64,18 @@ export default function Product({product: {id, name, productType, image, price, 
       <CardMedia
         className={classes.media}
         image={image}
-        title="Waffles basicos"
+        title={name}
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Basicos
+          {productType}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="Add to Cart">
           <AddShoppingCart fontsize='large'/>
         </IconButton>
-        {Array(4)
+        {Array(rating)
           .fill()
           .map((_, i)=>(
             <p>&#129479;</p>
@@ -94,7 +94,7 @@ export default function Product({product: {id, name, productType, image, price, 
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Los clasicos mas ricos!</Typography>
+          <Typography paragraph>{description}</Typography>
         </CardContent>
       </Collapse>
     </Card>
