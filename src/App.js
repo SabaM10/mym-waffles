@@ -2,6 +2,8 @@ import React from "react";
 import "./styles/styles.css";
 import Navbar from "./components/navbar";
 import Products from "./components/Products";
+import CheckoutPage from "./components/CheckoutPage";
+
 function App() {
   return (
       <section className="container">
@@ -10,6 +12,7 @@ function App() {
         </section>
         <section className="container__content">
           <Products />
+          <CheckoutPage />
           {/*<Product />*/}
          {/* {waffles.map((waffle) => (
             <Waffle
