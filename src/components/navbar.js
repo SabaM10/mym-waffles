@@ -48,7 +48,7 @@ export default function Navbar() {
             Bienvenido!
           </Typography>
           <IconButton aria-label="show cart items" color="white">
-              <Badge badgeContent={3} color="secondary">
+              <Badge badgeContent={0} color="secondary">
                   <ShoppingCart fontsize="large"></ShoppingCart>
               </Badge>
           </IconButton>

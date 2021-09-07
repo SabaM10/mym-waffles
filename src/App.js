@@ -20,6 +20,7 @@ function App() {
               waffles={waffles}
             />
          ))}*/}
+         
         </section>
       </section>
   );

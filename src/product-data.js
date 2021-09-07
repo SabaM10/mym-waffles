@@ -1,12 +1,15 @@
+import basicos from "./images/basicos.jpg";
+import nutebasicos from "./images/nutebasicos.png";
 const products = [
 {
     id:1,
-    name: "Waffles basicos",
+    name: "Waffles bas",
     productType: "Basicos",
     price: 250,
     rating:5,
-    image: "./images/basicos.jpg",
-    description: "Los clasicos mas ricos",
+    image: basicos,
+    description: 
+    "Los clasicos mas ricos",
 },
 {
     id:2,
@@ -14,7 +17,7 @@ const products = [
     productType: "Nutebasicos",
     price: 290,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: nutebasicos,
     description: "Los nuteclasicos mas ricos",
 },
 {
