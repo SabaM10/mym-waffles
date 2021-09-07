@@ -1,9 +1,15 @@
 import basicos from "./images/basicos.jpg";
 import nutebasicos from "./images/nutebasicos.png";
+import frutales from "./images/frutales.jpg";
+import nutefrutales from "./images/nutefrutales.jpg";
+import oreos from "./images/oreos.jpg";
+import chocolinas from "./images/chocolinas.jpg";
+import cubanitos from "./images/cubanitos.jpg";
+import kitkat from "./images/kitkat.jpg";
 const products = [
 {
     id:1,
-    name: "Waffles bas",
+    name: "Waffles basicos",
     productType: "Basicos",
     price: 250,
     rating:5,
@@ -26,7 +32,7 @@ const products = [
     productType: "Frutales",
     price: 310,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: frutales,
     description: "Los frutales mas ricos",
 },
 {
@@ -35,7 +41,7 @@ const products = [
     productType: "Nutefrutales",
     price: 370,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: nutefrutales,
     description: "Los nutefrutales mas ricos",
 },
 {
@@ -44,7 +50,7 @@ const products = [
     productType: "Oreos",
     price: 370,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: oreos,
     description: "Los oreos mas ricos",
 },
 {
@@ -53,7 +59,7 @@ const products = [
     productType: "Chocolinas",
     price: 370,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: chocolinas,
     description: "Las chocolinas mas ricas",
 },
 {
@@ -62,7 +68,7 @@ const products = [
     productType: "Cubanitos",
     price: 390,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: cubanitos,
     description: "Los cubanitos mas ricos",
 },
 {
@@ -71,7 +77,7 @@ const products = [
     productType: "Kit Kat",
     price: 390,
     rating:5,
-    image: "./images/basicos.jpg",
+    image: kitkat,
     description: "Los kitkat mas ricos",
 },
 

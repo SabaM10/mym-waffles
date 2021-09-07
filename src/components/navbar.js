@@ -41,7 +41,7 @@ export default function Navbar() {
             color="inherit"
             aria-label="menu"
           >
-            <img src={logo} className={classes.image} />
+            <img src={logo} className={classes.image} alt="MyM waffles" />
           </IconButton>
           <div className={classes.grow} />
           <Typography variant="h6" color="textPrimary" component="p">
