@@ -11,19 +11,9 @@ function App() {
           <Navbar />
         </section>
         <section className="container__content">
-          <Products />
+          {/*<Products />*/}
           <CheckoutPage />
-          {/*<Product />*/}
-         {/* {waffles.map((waffle) => (
-            <Waffle
-              key={waffle.id}
-              waffle={waffle}
-              cart={cart}
-              setCart={setCart}
-              waffles={waffles}
-            />
-         ))}*/}
-         
+          {/*<Product />*/}       
         </section>
       </section>
   );
